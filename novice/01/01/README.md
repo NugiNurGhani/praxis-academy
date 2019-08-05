@@ -1,7 +1,6 @@
 # Memulai Dart
- ##### Oleh: NugiNurGhani
+ #### Oleh: NugiNurGhani
 ---
-
  ###### 5 Agustus 2019
 
  Ringkasan materi
