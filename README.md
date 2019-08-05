@@ -1,2 +1,2 @@
 # praxis-academy
- Praxis Academi Mobile Developer Flutter
+ Praxis Academy Mobile Developer Flutter
