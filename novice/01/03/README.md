@@ -25,11 +25,11 @@ ___
 
  5. Variabel instance.
 
-
+    Bisa dilihat di file "latihan/4.dart"
 
  6. Getter dan Setter
 
-
+    Bisa dilihat di file "latihan/5.dart"
 
  7. Method
 
