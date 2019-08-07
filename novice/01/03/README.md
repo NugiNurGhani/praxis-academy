@@ -45,9 +45,8 @@ ___
     interface hanya berisi signature dari method, yakni hanya nama method dan parameternya saja (jika ada). Isi dari method akan dibuat ulang di dalam class yang menggunakan interface. Singkatnya interface adalah implementasi method yang harus ‘tersedia’ dalam sebuah objek.
 
  10. Extend kelas
-
-    Extend class merupakan kelas turunan dari kelas yang sudah ada.
-    biasanya digunakan untuk menurunkan sifat-sifat dari kelas yang sudah ada ke extend class yang baru saja dibuat, mereferensikan ke kelas yang sudah ada
+    
+    Extend class merupakan kelas turunan dari kelas yang sudah ada. biasanya digunakan untuk menurunkan sifat-sifat dari kelas yang sudah ada ke extend class yang baru saja dibuat, mereferensikan ke kelas yang sudah ada.
 
  11. Mixin 
 
