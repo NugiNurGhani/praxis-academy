@@ -11,15 +11,17 @@ ___
 
  2. Class pada Dart
     
-    Bisa melihat file "latihan/1.dart"
+    Bisa dilihat di file "latihan/1.dart"
 
  3. Konstruktor
 
-    Bisa melihat file "latihan/2.dart"
+    Bisa dilihat di file "latihan/2.dart"
 
  4. Tipe obyek
 
-    
+    Untuk dapat mengetahui tipe dari object yang ada, bisa menggunakan "runtimeType".
+
+    Bisa dilihat di file "latihan/3.dart"
 
  5. Variabel instance.
 

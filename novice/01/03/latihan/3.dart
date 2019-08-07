@@ -1,12 +1,14 @@
 main(List<String> args) {
-  var T = [6, 2, 3, 66, 3, 1];
-  var max;
-  var min = T[0];
-  for (var i = 0; i < T.length; i++) {
-    if (min > T[i]) {
-      min = T[i];
-    }
-  }
+  Device a = Device("K20 Pro");
+  Brand b = Brand("Redmi");
+  print('The type of a is ${a.runtimeType}');
+  print('The type of b is ${b.runtimeType}');
+}
 
-  print(min);
+class Device {
+  Device(String name) {}
+}
+
+class Brand {
+  Brand(String name) {}
 }
