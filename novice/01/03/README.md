@@ -39,5 +39,6 @@ ___
  Mixins merupakan class dimana method dari class ini dapat digunakan pada kelas lain tanpa extends atau mewarisi class tersebut.
 
  Repo ini berisi tentang penjelasan singkat, latihan-latihan serta penyelesaian kasus pada materi **OOP Pada Dart**
-
- Praxis-NugiNurGhani@2019
+ 
+ ___
+ PraxisAcademy-NugiNurGhani@2019
