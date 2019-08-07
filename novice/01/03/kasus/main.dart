@@ -33,9 +33,9 @@ main(List<String> args) {
 
   int select = 0;
   int choice = 0;
-  print("====================================================");
+  print("================================================");
   print("Welcome to this simple ATM machine");
-  print("====================================================");
+  print("================================================");
   do {
     do {
       print("Please select ATM Transactions");
