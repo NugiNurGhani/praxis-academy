@@ -156,162 +156,90 @@ class _MyHomePageState extends State<MyHomePage> {
           SizedBox(height: 10),
           Container(
               height: 170,
-              child: Center(
-                child: ListView(
-                  scrollDirection: Axis.horizontal,
-                  children: <Widget>[
-                    Container(
-                      height: 140,
-                      width: 140,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Text(
-                            "Dekorasi Ruang",
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20,
-                            ),
+              child: Column(
+                children: <Widget>[
+                  Row(
+                    children: <Widget>[
+                      SizedBox(width: 6),
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 80,
+                          width: 140,
+                          color: Colors.grey,
+                          child: Center(
+                            child: Text("Dekorasi Ruang"),
                           ),
-                          SizedBox(height: 10),
-                          ClipRRect(
-                            borderRadius: BorderRadius.circular(10),
-                            child: Container(
-                              height: 130,
-                              width: 130,
-                              color: Colors.grey,
-                            ),
-                          ),
-                        ],
+                        ),
                       ),
-                    ),
-                    Container(
-                      height: 140,
-                      width: 140,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Text(
-                            "Ruang Keluarga",
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20,
-                            ),
+                      SizedBox(width: 9),
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 80,
+                          width: 140,
+                          color: Colors.grey,
+                          child: Center(
+                            child: Text("Ruang Keluarga"),
                           ),
-                          SizedBox(height: 10),
-                          ClipRRect(
-                            borderRadius: BorderRadius.circular(10),
-                            child: Container(
-                              height: 130,
-                              width: 130,
-                              color: Colors.grey,
-                            ),
-                          ),
-                        ],
+                        ),
                       ),
-                    ),
-                    Container(
-                      height: 140,
-                      width: 140,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Text(
-                            "Ruang Kerja",
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20,
-                            ),
+                      SizedBox(width: 9),
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 80,
+                          width: 140,
+                          color: Colors.grey,
+                          child: Center(
+                            child: Text("Ruang Kerja"),
                           ),
-                          SizedBox(height: 10),
-                          ClipRRect(
-                            borderRadius: BorderRadius.circular(10),
-                            child: Container(
-                              height: 130,
-                              width: 130,
-                              color: Colors.grey,
-                            ),
-                          ),
-                        ],
+                        ),
                       ),
-                    ),
-                    Container(
-                      height: 140,
-                      width: 140,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Text(
-                            "Ruang Makan",
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20,
-                            ),
+                    ],
+                  ),
+                  SizedBox(height: 10),
+                  Row(
+                    children: <Widget>[
+                      SizedBox(width: 6),
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 80,
+                          width: 140,
+                          color: Colors.grey,
+                          child: Center(
+                            child: Text("Ruang Makan"),
                           ),
-                          SizedBox(height: 10),
-                          ClipRRect(
-                            borderRadius: BorderRadius.circular(10),
-                            child: Container(
-                              height: 130,
-                              width: 130,
-                              color: Colors.grey,
-                            ),
-                          ),
-                        ],
+                        ),
                       ),
-                    ),
-                    Container(
-                      height: 140,
-                      width: 140,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Text(
-                            "Ruang Tamu",
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20,
-                            ),
+                      SizedBox(width: 9),
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 80,
+                          width: 140,
+                          color: Colors.grey,
+                          child: Center(
+                            child: Text("Ruang Tamu"),
                           ),
-                          SizedBox(height: 10),
-                          ClipRRect(
-                            borderRadius: BorderRadius.circular(10),
-                            child: Container(
-                              height: 130,
-                              width: 130,
-                              color: Colors.grey,
-                            ),
-                          ),
-                        ],
+                        ),
                       ),
-                    ),
-                    Container(
-                      height: 140,
-                      width: 140,
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Text(
-                            "Ruang Terbuka",
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20,
-                            ),
+                      SizedBox(width: 9),
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 80,
+                          width: 140,
+                          color: Colors.grey,
+                          child: Center(
+                            child: Text("Ruang Terbuka"),
                           ),
-                          SizedBox(height: 10),
-                          ClipRRect(
-                            borderRadius: BorderRadius.circular(10),
-                            child: Container(
-                              height: 130,
-                              width: 130,
-                              color: Colors.grey,
-                            ),
-                          ),
-                        ],
+                        ),
                       ),
-                    ),
-                  ],
-                ),
+                    ],
+                  )
+                ],
               )),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
