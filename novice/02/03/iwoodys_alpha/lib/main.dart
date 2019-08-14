@@ -154,253 +154,339 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           SizedBox(height: 10),
-          Container(
-              height: 170,
-              child: Column(
+          Expanded(
+              child: ListView(
+            shrinkWrap: true,
+            children: <Widget>[
+              Container(
+                  height: 170,
+                  child: Column(
+                    children: <Widget>[
+                      Row(
+                        children: <Widget>[
+                          SizedBox(width: 6),
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: Container(
+                              height: 80,
+                              width: 140,
+                              color: Colors.grey,
+                              child: Center(
+                                child: Text("Dekorasi Ruang"),
+                              ),
+                            ),
+                          ),
+                          SizedBox(width: 9),
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: Container(
+                              height: 80,
+                              width: 140,
+                              color: Colors.grey,
+                              child: Center(
+                                child: Text("Ruang Keluarga"),
+                              ),
+                            ),
+                          ),
+                          SizedBox(width: 9),
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: Container(
+                              height: 80,
+                              width: 140,
+                              color: Colors.grey,
+                              child: Center(
+                                child: Text("Ruang Kerja"),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 10),
+                      Row(
+                        children: <Widget>[
+                          SizedBox(width: 6),
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: Container(
+                              height: 80,
+                              width: 140,
+                              color: Colors.grey,
+                              child: Center(
+                                child: Text("Ruang Makan"),
+                              ),
+                            ),
+                          ),
+                          SizedBox(width: 9),
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: Container(
+                              height: 80,
+                              width: 140,
+                              color: Colors.grey,
+                              child: Center(
+                                child: Text("Ruang Tamu"),
+                              ),
+                            ),
+                          ),
+                          SizedBox(width: 9),
+                          ClipRRect(
+                            borderRadius: BorderRadius.circular(10),
+                            child: Container(
+                              height: 80,
+                              width: 140,
+                              color: Colors.grey,
+                              child: Center(
+                                child: Text("Ruang Terbuka"),
+                              ),
+                            ),
+                          ),
+                        ],
+                      )
+                    ],
+                  )),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  Row(
-                    children: <Widget>[
-                      SizedBox(width: 6),
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
-                        child: Container(
-                          height: 80,
-                          width: 140,
-                          color: Colors.grey,
-                          child: Center(
-                            child: Text("Dekorasi Ruang"),
-                          ),
-                        ),
-                      ),
-                      SizedBox(width: 9),
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
-                        child: Container(
-                          height: 80,
-                          width: 140,
-                          color: Colors.grey,
-                          child: Center(
-                            child: Text("Ruang Keluarga"),
-                          ),
-                        ),
-                      ),
-                      SizedBox(width: 9),
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
-                        child: Container(
-                          height: 80,
-                          width: 140,
-                          color: Colors.grey,
-                          child: Center(
-                            child: Text("Ruang Kerja"),
-                          ),
-                        ),
-                      ),
-                    ],
+                  Text(
+                    "Popular Products",
+                    style: TextStyle(
+                      fontSize: 23,
+                      fontWeight: FontWeight.w800,
+                    ),
                   ),
-                  SizedBox(height: 10),
-                  Row(
-                    children: <Widget>[
-                      SizedBox(width: 6),
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
-                        child: Container(
-                          height: 80,
-                          width: 140,
-                          color: Colors.grey,
-                          child: Center(
-                            child: Text("Ruang Makan"),
-                          ),
-                        ),
+                  FlatButton(
+                    child: Text(
+                      "View More",
+                      style: TextStyle(
+                        color: Colors.grey,
                       ),
-                      SizedBox(width: 9),
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
-                        child: Container(
-                          height: 80,
-                          width: 140,
-                          color: Colors.grey,
-                          child: Center(
-                            child: Text("Ruang Tamu"),
-                          ),
-                        ),
-                      ),
-                      SizedBox(width: 9),
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
-                        child: Container(
-                          height: 80,
-                          width: 140,
-                          color: Colors.grey,
-                          child: Center(
-                            child: Text("Ruang Terbuka"),
-                          ),
-                        ),
-                      ),
-                    ],
-                  )
+                    ),
+                    onPressed: () {},
+                  ),
                 ],
-              )),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Text(
-                "Popular Products",
-                style: TextStyle(
-                  fontSize: 23,
-                  fontWeight: FontWeight.w800,
+              ),
+              Container(
+                height: 150,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: <Widget>[
+                    Container(
+                      height: 140,
+                      width: 140,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 130,
+                          width: 130,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                    SizedBox(width: 10),
+                    Container(
+                      height: 140,
+                      width: 140,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 130,
+                          width: 130,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                    SizedBox(width: 10),
+                    Container(
+                      height: 140,
+                      width: 140,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 130,
+                          width: 130,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                    SizedBox(width: 10),
+                    Container(
+                      height: 140,
+                      width: 140,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 130,
+                          width: 130,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ),
-              FlatButton(
-                child: Text(
-                  "View More",
-                  style: TextStyle(
-                    color: Colors.grey,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Text(
+                    "Ready Stock",
+                    style: TextStyle(
+                      fontSize: 23,
+                      fontWeight: FontWeight.w800,
+                    ),
                   ),
+                  FlatButton(
+                    child: Text(
+                      "View More",
+                      style: TextStyle(
+                        color: Colors.grey,
+                      ),
+                    ),
+                    onPressed: () {},
+                  ),
+                ],
+              ),
+              Container(
+                height: 150,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: <Widget>[
+                    Container(
+                      height: 140,
+                      width: 140,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 130,
+                          width: 130,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                    SizedBox(width: 10),
+                    Container(
+                      height: 140,
+                      width: 140,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 130,
+                          width: 130,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                    SizedBox(width: 10),
+                    Container(
+                      height: 140,
+                      width: 140,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 130,
+                          width: 130,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                    SizedBox(width: 10),
+                    Container(
+                      height: 140,
+                      width: 140,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 130,
+                          width: 130,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
-                onPressed: () {},
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Text(
+                    "Pre Order",
+                    style: TextStyle(
+                      fontSize: 23,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
+                  FlatButton(
+                    child: Text(
+                      "View More",
+                      style: TextStyle(
+                        color: Colors.grey,
+                      ),
+                    ),
+                    onPressed: () {},
+                  ),
+                ],
+              ),
+              Container(
+                height: 150,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: <Widget>[
+                    Container(
+                      height: 140,
+                      width: 140,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 130,
+                          width: 130,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                    SizedBox(width: 10),
+                    Container(
+                      height: 140,
+                      width: 140,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 130,
+                          width: 130,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                    SizedBox(width: 10),
+                    Container(
+                      height: 140,
+                      width: 140,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 130,
+                          width: 130,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                    SizedBox(width: 10),
+                    Container(
+                      height: 140,
+                      width: 140,
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10),
+                        child: Container(
+                          height: 130,
+                          width: 130,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ],
-          ),
-          Container(
-            height: 150,
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              children: <Widget>[
-                Container(
-                  height: 140,
-                  width: 140,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(10),
-                    child: Container(
-                      height: 130,
-                      width: 130,
-                      color: Colors.grey,
-                    ),
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  height: 140,
-                  width: 140,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(10),
-                    child: Container(
-                      height: 130,
-                      width: 130,
-                      color: Colors.grey,
-                    ),
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  height: 140,
-                  width: 140,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(10),
-                    child: Container(
-                      height: 130,
-                      width: 130,
-                      color: Colors.grey,
-                    ),
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  height: 140,
-                  width: 140,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(10),
-                    child: Container(
-                      height: 130,
-                      width: 130,
-                      color: Colors.grey,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Text(
-                "Ready Stock",
-                style: TextStyle(
-                  fontSize: 23,
-                  fontWeight: FontWeight.w800,
-                ),
-              ),
-              FlatButton(
-                child: Text(
-                  "View More",
-                  style: TextStyle(
-                    color: Colors.grey,
-                  ),
-                ),
-                onPressed: () {},
-              ),
-            ],
-          ),
-          Container(
-            height: 150,
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              children: <Widget>[
-                Container(
-                  height: 140,
-                  width: 140,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(10),
-                    child: Container(
-                      height: 130,
-                      width: 130,
-                      color: Colors.grey,
-                    ),
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  height: 140,
-                  width: 140,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(10),
-                    child: Container(
-                      height: 130,
-                      width: 130,
-                      color: Colors.grey,
-                    ),
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  height: 140,
-                  width: 140,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(10),
-                    child: Container(
-                      height: 130,
-                      width: 130,
-                      color: Colors.grey,
-                    ),
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  height: 140,
-                  width: 140,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(10),
-                    child: Container(
-                      height: 130,
-                      width: 130,
-                      color: Colors.grey,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          )
+          ))
         ],
       ),
       bottomNavigationBar: Theme(
